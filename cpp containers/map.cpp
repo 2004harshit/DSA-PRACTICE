@@ -32,7 +32,7 @@ for(auto x: umap1){
      cout<<"------------------------------------"<<endl;
      unordered_map<string, int>map;
     //  inserting using insert function
-    map.insert(make_pair("harshit",1));
+   //  map.insert(make_pair("harshit",1));
    //  cout<<map.find('harshit')==map.end();
     return 0;
 }

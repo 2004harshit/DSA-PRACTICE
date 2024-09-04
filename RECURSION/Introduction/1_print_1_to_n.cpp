@@ -72,7 +72,7 @@ int main()
     // PrintNum(n,5);
     // printNum2(n);
 
-    int result= PrintNumber(1,5);
+    int result= PrintNumber(1,n);
     cout<<result;
     return 0;
 }

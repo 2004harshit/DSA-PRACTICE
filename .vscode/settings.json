@@ -5,6 +5,7 @@
         "utility": "cpp",
         "iostream": "cpp",
         "ostream": "cpp",
-        "chrono": "cpp"
+        "chrono": "cpp",
+        "functional": "cpp"
     }
 }

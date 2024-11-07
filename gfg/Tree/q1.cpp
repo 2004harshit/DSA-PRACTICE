@@ -1,6 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+
 // METHOD 1
 class Node
 {
@@ -19,17 +20,12 @@ public:
     }
 };
 
-int countLeafNodes(Node *root)
-{
-    if (root == NULL)
-    {
-        return 0;
-    }
-    if (root->left == NULL && root->right == NULL)
-    {
-        return 1;
-    }
-    return  countLeafNodes(root->left) + countLeafNodes(root->right);
+void rootToLeafPath(Node * root){
+     if(root ==NULL)return;
+
+   cout<<root->data<<" ";
+   
+
 }
 
 int main()
@@ -48,9 +44,8 @@ int main()
     root->right = node2;
     node1->left = node3;
     node1->right = node4;
-    node2->left = node5;
-    // node2->right = node6;
-    
-    cout<<countLeafNodes(root);
+    node2->right = node5;
+    node2->right = node6;
+
     return 0;
 }

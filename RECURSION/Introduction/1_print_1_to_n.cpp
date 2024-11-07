@@ -27,9 +27,10 @@ void printNum2(int N)
         cout<<1<<endl;
         return;
     }
+    cout << N << endl;
     printNum2(N - 1);
 
-    cout << N << endl;
+    
 }
 
 int PrintNum(int n,int N){
@@ -70,9 +71,9 @@ int main()
     cin>>n;
     // printNum(n,5);
     // PrintNum(n,5);
-    // printNum2(n);
+    printNum2(n);
 
-    int result= PrintNumber(1,n);
-    cout<<result;
+    // int result= PrintNumber(1,n);
+    // cout<<result;
     return 0;
 }
